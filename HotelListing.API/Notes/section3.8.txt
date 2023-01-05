@@ -1,0 +1,25 @@
+﻿you can actually have multiple projects inside of one solution. in .NET
+And then the project file is an XML file that had bits and pieces of information relative to the
+actual project being used at that point. It has metadata about the project
+
+you have what you call MVC, apps, model view controller in .NET CORE
+So a model would be in charge of looking like the data in the database.
+So it's a model of the data.
+The view is what the user sees.
+And then the controller pulls the strings between the model and the view.
+So the controller gets the request, processes it, and sends a response.
+So request would be a user saying, I want to see this page.
+The controller gets the request for that page.
+It goes and sees, is there any data that is needed for the business, record, the database, prepare
+it and then pass it over to The View and then send that to the user.
+So that's pretty much what the controller does.
+in an API There is no view. there's going to be models, but there is no view.
+So in the absence of a view, we really just have MC model controller, right?
+the controller takes the request.
+And then runs up process then return data.
+
+in most of the projects there Program.cs class available
+What is happening here is the builder is constructing all of the services, anything that needs to be
+injected before or by the time the app is run.
+All of those things need to be in place so they can be accessed, and that is what we call the IOC container
+inversion of Control Container, and that is what needs us to do our dependency injection, like what

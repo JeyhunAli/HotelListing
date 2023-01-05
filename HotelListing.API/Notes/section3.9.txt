@@ -1,0 +1,5 @@
+﻿miniml API 
+So if you want a very small API with maybe one with one endpoint and like four or five behaviors, then
+fine, you can go ahead and USE that.
+But when it starts getting complicated with database operations and so on, I might as
+well have used the bigger and the standard API.

@@ -1,0 +1,13 @@
+﻿IN THIS SECTION WE ARE preparing our API for out of the box usage with third party applications.
+So we're going to be introducing cores, which is an acronym that stands for
+
+Cross Origin Resource Sharing.
+
+And what this allows us to do is enable our API to be accessed by resource by clients that are not on
+the same server.
+So right now, I mean everything is happening on our machine.
+But just imagine that you've deployed this in your company, maybe to the Internet, and then you said,
+Hello everybody, you can use my API to access your information without cores or without a cores policy
+in place to facilitate that only other computer, other client apps that are on the same computer as
+the API can access that which would defeat the purpose of publishing on the Internet and publishing
+for a whole company.
